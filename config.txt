@@ -1,0 +1,6 @@
+{
+    "default_advanced_checkbox": true,
+    "default_save_metadata_to_images": true,
+    "default_metadata_scheme": "a1111",
+    "metadata_created_by": "Fooocus"
+}

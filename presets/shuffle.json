@@ -1,0 +1,32 @@
+{
+  "default_model": "WaiShuffle.safetensors",
+  "default_refiner": "None",
+  "default_refiner_switch": 0.5,
+  "default_vae": "SDXL_VAE.safetensors",
+  "default_loras": [
+    [true, "None", 1.0],
+    [true, "None", 1.0],
+    [true, "None", 1.0],
+    [true, "None", 1.0],
+    [true, "None", 1.0]
+  ],
+  "default_cfg_scale": 5.5,
+  "default_sample_sharpness": 2.0,
+  "default_sampler": "euler_ancestral",
+  "default_scheduler": "karras",
+  "default_performance": "Speed",
+  "default_prompt": "masterpiece, best quality, ",
+  "default_prompt_negative": "worst quality, low quality, watermark, ",
+  "default_styles": [],
+  "default_aspect_ratio": "896*1152",
+  "default_overwrite_step": 20,
+  "default_inpaint_engine_version": "None",
+  "checkpoint_downloads": {
+    "WaiShuffle.safetensors": "https://civitai.com/api/download/models/1195593?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=8f0aea0979979186cc5e2877272fb27b"
+  },
+  "embeddings_downloads": {},
+  "lora_downloads": {},
+  "vae_downloads": {
+    "SDXL_VAE.safetensors": "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors"
+  }
+}
